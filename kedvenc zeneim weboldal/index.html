@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Fooldal.css">
+    <title>Fooldal</title>
+</head>
+<body>
+  <header>
+    <div id="id" class="header">
+      <nav>
+        <ul>
+          <li><a href="index.html"><p>Fooldal</p></a></li>
+          <li><a href="Synthvawezenek.html"><p>Synthvawe zenek</p></a></li>
+          <li><a href="Synthvawerol.html"><p>Synthvawerol</p></a></li>
+          <li><a href="Kerdoiv.html"><p>KerdoIv</p></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <div class="fooldal">
+      <p>
+      Udv a fooldalon
+      </p>
+    </div>
+    <div class="content">
+          <div class="info">
+            <h1>Mirol szol a weboldal?
+              
+            </h1>
+            <p>Ezt a weboldalt synthvawe bemutatasara keszItettem.</p> 
+          </div>
+        </div>
+    <div class="paragraph">
+      <p>
+      Bangers
+      </p>
+    </div>
+    <div class="container">
+      <div class=video-container>
+          <figure>
+            <div class="video"><video src="ISIDORDareDynamoDarkSynthwaveAMV_1080p.mp4" poster="dsa.jpg"></video></div>
+            <figcaption>IsIdor-Dare Dynamo</figcaption>
+          </figure>
+          <figure>
+            <div class="video"><video src="PerturbatorFeatNoirDecoTechnoirDarkSynthwaveAMV_480p.mp4" poster="ds.jpg"></video></div>
+            <figcaption>Perturbator-TechnoIr</figcaption>
+          </figure>
+          <figure>
+            <div class="video"><video src="DeathSquad.mp4" poster="jin.jpg"></video></div>
+            <figcaption>Perturbator-Death squad</figcaption>
+          </figure>
+          <figure>
+            <div class="video"><video src="DanTerminus-DigitalOnslaught.mp4" poster="nin.jpg"></video></div>
+            <figcaption>Dan TermInus-DIgItal Onslaught</figcaption>
+          </figure>
+          <figure>
+            <div class="video"><video src="yt1s.com-LazerHawkKingofTheStreets_360p.mp4" poster="vanish.jpg"></video></div>
+            <figcaption>Lazer Hawk-KIng of the Streets</figcaption>
+          </figure>
+          <figure>
+            <div class="video"><video src="yt1s.comGhostrunnerStrikerOST_v720P.mp4" poster="ghost.jpg"></video></div>
+            <figcaption>DanIel Deluxe-StrIker</figcaption>
+          </figure>
+          <figure>
+            <div class="video"><video src="MemorexMemories-Phantasmagoria(RunTheGrid).mp4" poster="tron.jpg"></video></div>
+            <figcaption>Memorex Memories-PhantasmagorIa</figcaption>
+          </figure>
+          <figure>
+            <div class="video"><video src="yt1s.com-MiamiNights1984Accelerated.mp4" poster="miami.jpg"></video></div>
+            <figcaption>MIamI NIghts 1984-Accelerated</figcaption>
+          </figure>
+        </div>
+        
+        <div class="popup-video">
+          <span>&times;</span>
+          <video id="sa" src="ISIDORDareDynamoDarkSynthwaveAMV_1080p.mp4" controls></video>
+        </div>
+      </div>
+    <script>
+      document.querySelectorAll('.video-container video').forEach(vid => {
+        vid.onclick = () =>{
+          document.querySelector('.popup-video').style.display = 'block';
+          document.querySelector('.popup-video video').src = vid.getAttribute('src'); 
+          document.getElementById('sa').muted=false; 
+        }
+      });
+      document.querySelector('.popup-video span').onclick=() =>{
+        document.querySelector('.popup-video').style.display = 'none';
+        document.getElementById('sa').muted=true;
+    }
+    </script>
+    
+
+  <footer>
+      <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
+    <script>
+      var link = document.getElementById("back-to-top");
+      var amountScrolled = 50;
+
+      window.addEventListener('scroll', function(e) {
+          if ( window.pageYOffset > amountScrolled ) {
+              link.classList.add('show');
+          } else {
+              link.className = 'back-to-top';
+          }
+      }); 
+      link.addEventListener('click', function(e) {
+          e.preventDefault();
+          var distance = 0 - window.pageYOffset;
+          var increments = distance/(500/16);
+          function animateScroll() {
+              window.scrollBy(0, increments);
+              if (window.pageYOffset <= document.body.offsetTop) {
+                  clearInterval(runAnimation);
+              }
+          };
+          var runAnimation = setInterval(animateScroll, 16);
+      });
+      </script>
+  </footer>
+</body>
+</html>

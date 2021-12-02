@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Synthvawezenek.css">
+    <title>Synthvawe Zenek</title>
+</head>
+<body>
+    <div class="header">
+        <nav>
+          <ul>
+            <li><a href="index.html"><p>Fooldal</p></a></li>
+            <li><a href="Synthvawezenek.html"><p>Synthvawe zenek</p></a></li>
+            <li><a href="Synthvawerol.html"><p>Synthvawerol</p></a></li>
+            <li><a href="Kerdoiv.html"><p>KerdoIv</p></a></li>
+          </ul>
+        </nav>
+    </div>
+        <div class="container">
+            <div id="cyberpunk" class="paragraph">
+                <p>
+                    Cyberpunk
+                </p>
+            </div>
+          <div class=video-container>
+            <figure>
+              <div class="video"><video src="yt1s.com-PowerGloveMotorcycleCopUltraHQ.mp4" poster="motor.jpg"></video></div>
+              <figcaption>Power Glove-Motorcycle Cop</figcaption>
+            </figure>
+            <figure>
+              <div class="video"><video src="Perturbator-WelcomeToNocturneCity.mp4" poster="akira.jpg"></video></div>
+              <figcaption>Perturbator-Welcome to Nocturne CIty</figcaption>
+            </figure>
+            <figure>
+              <div class="video"><video src="NoirDeco-TerminatorMedley.mp4" poster="terminator.jpg"></video></div>
+              <figcaption>NoIr Deco-Terminator Medley</figcaption>
+            </figure>
+          </div>
+          <div id="synthvawe" class="paragraph">
+            <p>
+                Synthvawe
+            </p>
+        </div>
+        <div class="container">
+          <div class=video-container>
+            <figure>
+              <div class="video"><video src="yt1s.com-MrKittyAfterDarkSlowedDown.mp4" poster="play.PNG"></video></div>
+              <figcaption>Mr.KItty-After Dark</figcaption>
+            </figure>
+            <figure>
+              <div class="video"><video src="yt1s.com-HOMEResonance.mp4" poster="resonance.jpg"></video></div>
+              <figcaption>Home-Resonance</figcaption>
+            </figure>
+            <figure>
+              <div class="video"><video src="yt1s.com-NewOrderBlueMondayReverbHQAsheardfromReadyPlayerOne720p.mp4" poster="monday.jpg"></video></div>
+              <figcaption>New Order-Blue Monday</figcaption>
+            </figure>
+          </div>
+          <div id="darksynth" class="paragraph">
+            <p>
+                Darksynth
+            </p>
+        </div>
+        <div class="container">
+          <div class=video-container>
+            <figure>
+              <div class="video"><video src="MegaDrive-Maniac.mp4" poster="maniac.jpg"></video></div>
+              <figcaption>Mega DrIve-ManIac</figcaption>
+            </figure>
+            <figure>
+              <div class="video"><video src="yt1s.com-CarpenterBrutRollerMobster.mp4" poster="mobster.jpg"></video></div>
+              <figcaption>Carpenter Brut-Roller Mobster</figcaption>
+            </figure>
+            <figure>
+              <div class="video"><video src="yt1s.com-DANCEWITHTHE DEADTheManWhoMadeaMonster.mp4" poster="dance.jpg"></video></div>
+              <figcaption>Dance WIth The Dead-The Man Who Made a Monster</figcaption>
+            </figure>
+          </div>
+          <div id="outrun" class="paragraph">
+            <p>
+                Outrun
+            </p>
+        </div>
+        <div class="container">
+          <div class=video-container>
+              <figure>
+                <div class="video"><video src="yt1s.com-KavinskyNightcallDriveOriginalMovieSoundtrackOfficialAudio.mp4" poster="kavinsky.jpg"></video></div>
+                <figcaption>KavInsky-NIghtcall</figcaption>
+              </figure>
+              <figure>
+                <div class="video"><video src="yt1s.com - Lazerhawk Overdrive.mp4" poster="bean.jpg"></video></div>
+                <figcaption>Lazerhawk-OverdrIve</figcaption>
+              </figure>
+              <figure>
+                <div class="video"><video src="Dynatron-StarsoftheNight.mp4" poster="stars.jpg"></video></div>
+                <figcaption>Dynatron-Stars of the NIght</figcaption>
+              </figure>
+          </div>
+            <div class="popup-video">
+              <span>&times;</span>
+              <video id="sa" src="Dynatron-StarsoftheNight.mp4" controls></video>
+            </div>
+        </div>
+    <script>
+          document.querySelectorAll('.video-container video').forEach(vid => {
+            vid.onclick = () =>{
+              document.querySelector('.popup-video').style.display = 'block';
+              document.querySelector('.popup-video video').src = vid.getAttribute('src');
+              document.getElementById('sa').muted = false;
+            }
+          });
+          document.querySelector('.popup-video span').onclick=() =>{
+            document.querySelector('.popup-video').style.display = 'none';
+            document.getElementById('sa').muted = true;
+        }
+    </script>
+ 
+    <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
+    <script>
+      var link = document.getElementById("back-to-top");
+      var amountScrolled = 250;
+    
+      window.addEventListener('scroll', function(e) {
+          if ( window.pageYOffset > amountScrolled ) {
+              link.classList.add('show');
+          } else {
+              link.className = 'back-to-top';
+          }
+      }); 
+      link.addEventListener('click', function(e) {
+          e.preventDefault();
+    
+          var distance = 0 - window.pageYOffset;
+          var increments = distance/(500/16);
+          function animateScroll() {
+              window.scrollBy(0, increments);
+              if (window.pageYOffset <= document.body.offsetTop) {
+                  clearInterval(runAnimation);
+              }
+          };
+          var runAnimation = setInterval(animateScroll, 16);
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+.header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    position: relative;
+}
+.header ul{
+    text-align: center;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'outrun future',sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+}
+.header ul li a:hover{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(194, 0, 0);
+    font-size: 20px;
+    font-family: 'outrun future',sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+}
+:root {
+--color-white: #f3f3f3;
+--color-darkblue: #1b1b32;
+--color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+--color-green: #37af65;
+
+--accent-left: rgba(58, 58, 158, 0.8);
+--accent-right: rgba(136, 136, 206, 0.7);
+
+--size-subheading: 1.125rem;
+--size-label: 1.125rem;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'outrun future',sans-serif;
+}
+.paragraph
+{
+    background-image: url("static.jpg");
+    text-align: center;
+    font-size: 35px;
+    color: rgb(194, 0, 0);
+    text-transform: uppercase;
+    font-weight: 200;
+    opacity: 1;
+}
+body{
+    background-image: url("asss.jpg") ;
+    font-family: "outrun future", sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, .7);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.description {
+    font-size: var(--size-subheading);
+    margin: 1rem auto;
+    text-shadow: 1px 1px #333;
+}
+
+form {
+    background: var(--color-darkblue-alpha);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.3rem;
+    width: 60%;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.form-group p {
+    line-height: 1;
+    margin: 0.5rem 0.1rem;
+}
+
+.form-group p:not(:nth-child(1)) {
+    margin: 0.5rem 0;
+}
+
+.form-label {
+    font-size: var(--size-label);
+}
+
+.form-control {
+display: block;
+width: 100%;
+font-size: 1rem;
+height: 2.5rem;
+padding: 0.375rem 0.75rem;
+border-radius: 0.3rem;
+border: 1px solid #dddddd;
+margin-top: 0.4rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+width: 1rem;
+height: 1rem;
+}
+
+input[type="checkbox"] {
+margin-right: 0.5rem;
+}
+
+textarea {
+font-size: 1.2rem;
+padding: 0.375rem 0.75rem;
+width: 100%;
+height: auto;
+border: none;
+margin: 0.5rem 0;
+}
+
+button {
+background-color: var(--color-green);
+border: none;
+color: var(--color-white);
+padding: 0.75rem;
+font-size: var(--size-label);
+font-family: "Poppins", sans-serif;
+cursor: pointer;
+}
+.back-to-top {
+    background:rgba(0, 0, 0, .1);
+    color: #FFFFFF;
+    opacity: 0;
+    transition: opacity .6s ease-in-out;
+    z-index: 999;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 0%;
+  }
+  a.back-to-top {
+    font-weight: 1000;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+    padding-left: 2px;
+    padding-top: 14px;
+  }
+  .back-to-top:hover{
+    color: #ff0000;
+  }
+  .back-to-top.show {
+    opacity: 1;
+  }
+  a {
+    text-decoration:none;
+  }
+@media all and (max-width: 1141px) {
+form {
+    width: 80%;
+}
+}
+
+@media all and (max-width: 540px) {
+form {
+    width: 95%;
+}
+}
+
+@media all and (max-width: 440px) {
+form {
+    padding: 0.625rem;
+}
+
+.form-group {
+    margin: 1rem 0;
+}
+
+.form-group p {
+    line-height: 1.4;
+    margin: 0.5rem 0.1rem;
+}
+}
+
+  
