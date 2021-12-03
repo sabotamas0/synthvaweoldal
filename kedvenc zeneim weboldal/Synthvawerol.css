@@ -33,7 +33,7 @@
   text-transform: uppercase;
   color: #fff;
   font-size: 20px;
-  font-family: 'outrun_futureregular';
+  font-family: 'outrun_futureregular',sans-serif;
   letter-spacing: 2px;
   font-weight: 600;
   padding: 25px;
@@ -44,7 +44,7 @@
   text-transform: uppercase;
   color: rgb(194, 0, 0);
   font-size: 20px;
-  font-family: 'outrun_futureregular';
+  font-family: 'outrun_futureregular',sans-serif;
   letter-spacing: 2px;
   font-weight: 600;
   padding: 25px;
@@ -87,7 +87,7 @@ body{
   color: rgb(194, 0, 0);
   font-size: 16px;
   font-weight: 500;
-  font-family: 'road_rageregular';
+  font-family: 'road_rageregular',sans-serif;
   text-align: center;
 }
 .container .video-container figure figcaption {
@@ -110,7 +110,7 @@ body{
 {
   background-image: url("static.jpg");
   text-align: center;
-  font-family: 'outrun_futureregular';
+  font-family: 'outrun_futureregular',sans-serif;
 	font-size: 35px;
   color: rgb(194, 0, 0);
 	text-transform: uppercase;
@@ -135,7 +135,7 @@ body{
   text-transform: uppercase;
   color: #fff;
   font-size: 20px;
-  font-family: 'outrun_futureregular';
+  font-family: 'outrun_futureregular',sans-serif;
   letter-spacing: 2px;
   font-weight: 600;
   padding: 25px;
@@ -146,7 +146,7 @@ body{
   text-transform: uppercase;
   color: rgb(194, 0, 0);
   font-size: 20px;
-  font-family: 'outrun_futureregular';
+  font-family: 'outrun_futureregular',sans-serif;
   letter-spacing: 2px;
   font-weight: 600;
   padding: 25px;
@@ -193,14 +193,14 @@ body{
   color: rgb(194, 0, 0);
   font-size: 16px;
   font-weight: 500;
-  font-family: 'road_rageregular';
+  font-family: 'road_rageregular',sans-serif;
   text-align: center;
 }
 .container .video-container figure figcaption {
   color: rgb(194, 0, 0);
   font-size: 16px;
   font-weight: 500;
-  font-family: 'road_rageregular';
+  font-family: 'road_rageregular',sans-serif;
   text-align: center;
   transition: .2s linear;
   opacity: 0;
@@ -216,7 +216,7 @@ body{
 {
   background-image: url("static.jpg");
   text-align: center;
-  font-family: 'outrun_futureregular';
+  font-family: 'outrun_futureregular',sans-serif;
 	font-size: 35px;
   color: rgb(194, 0, 0);
 	text-transform: uppercase;
