@@ -104,6 +104,7 @@ body{
     font-size: var(--size-subheading);
     margin: 1rem auto;
     text-shadow: 1px 1px #333;
+    color: #fff;
 }
 
 form {
@@ -112,25 +113,30 @@ form {
     border-radius: 0.3rem;
     width: 60%;
     margin: auto;
+    color: #fff;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
     margin: 2rem;
+    color: #fff;
 }
 
 .form-group p {
     line-height: 1;
     margin: 0.5rem 0.1rem;
+    color: #fff;
 }
 
 .form-group p:not(:nth-child(1)) {
     margin: 0.5rem 0;
+    color: #fff;
 }
 
 .form-label {
     font-size: var(--size-label);
+    color: #fff;
 }
 
 .form-control {
