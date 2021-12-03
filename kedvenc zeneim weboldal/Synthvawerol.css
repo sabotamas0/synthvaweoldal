@@ -449,3 +449,19 @@ aside {
     background-size: cover;
     }
 } 
+@media (max-width:300px){
+  .modal.active{
+    width: 95%;
+  }
+  .modal .body {
+    font-size:14px;
+  }
+  body {
+    background-image: url(monb.jpg);
+    font-family: 'outrun_futureregular';
+    background-color: rgba(0, 0, 0, .2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+} 
