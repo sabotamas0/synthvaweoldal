@@ -24,7 +24,7 @@
   text-transform: uppercase;
   color: #fff;
   font-size: 20px;
-  font-family: 'outrun_futureregular',sans-serif;
+  font-family: 'outrun_futureregular';
   letter-spacing: 2px;
   font-weight: 600;
   padding: 25px;
@@ -35,7 +35,7 @@
   text-transform: uppercase;
   color: rgb(194, 0, 0);
   font-size: 20px;
-  font-family: 'outrun_futureregular',sans-serif;
+  font-family: 'outrun_futureregular';
   letter-spacing: 2px;
   font-weight: 600;
   padding: 25px;
@@ -101,7 +101,7 @@ body{
 {
   background-image: url("static.jpg");
   text-align: center;
-  font-family: 'outrun_futureregular',sans-serif;
+  font-family: 'outrun_futureregular';
 	font-size: 35px;
   color: rgb(194, 0, 0);
 	text-transform: uppercase;
@@ -196,7 +196,7 @@ body{
   border-radius: 0%;
 }
 a{
-  font-family: 'outrun_futureregular', sans-serif;
+  font-family: 'outrun_futureregular';
 }
 
 a.back-to-top {
@@ -360,7 +360,7 @@ ol > li:before {
   color: #fff;
   background: #333;
   font-weight: bold;
-  font-family: 'outrun_futureregular', sans-serif;
+  font-family: 'outrun_futureregular';
   text-align: center;
 }
 li ol,
@@ -433,7 +433,7 @@ aside {
   }
   body {
     background-image: url(monb.jpg);
-    font-family: 'outrun_futureregular', sans-serif;
+    font-family: 'outrun_futureregular';
     background-color: rgba(0, 0, 0, .2);
     background-repeat: no-repeat;
     background-attachment: fixed;
