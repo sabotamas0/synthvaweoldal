@@ -455,6 +455,8 @@ aside {
   }
   .modal .body {
     font-size:10px;
+    width: 500px;
+    height: 300px;
   }
   body {
     background-image: url(monb.jpg);
