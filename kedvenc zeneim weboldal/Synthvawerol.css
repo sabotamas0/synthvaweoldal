@@ -414,7 +414,7 @@ a.back-to-top {
     font-family: 'outrun_futureregular', sans-serif;
     background-color: rgba(0, 0, 0, .2);
     background-attachment: local;
-    background-image: 50%;
+   
   }
   .container2 .popup-image img{
     width: 95%;
@@ -441,7 +441,7 @@ aside h1 {
   margin: 40px 5px 0 0;
 }
 ol {
-  break-before: always;
+  
   counter-reset: li;
   margin-left: 0;
   padding-left: 0;
