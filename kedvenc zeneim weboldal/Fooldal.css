@@ -130,15 +130,6 @@ body{
   font-family: 'road_rageregular';
   text-align: center;
 }
-.container .video-container figure figcaption {
-  color: rgb(194, 0, 0);
-  font-size: 16px;
-  font-weight: 500;
-  font-family: 'road_rageregular';
-  text-align: center;
-  transition: .2s linear;
-  opacity: 0;
-}
 .container .video-container .video video{
   height: 100%;
   width: 100%;
