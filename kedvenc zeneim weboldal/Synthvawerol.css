@@ -451,12 +451,12 @@ aside {
 } 
 @media screen and (max-width:1100px){
   .modal.active{
-    width:50%;
+    width:20%;
   }
   .modal .body {
     font-size:10px;
-    width: 500px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
   }
   body {
     background-image: url(monb.jpg);
