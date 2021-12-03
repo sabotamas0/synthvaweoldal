@@ -152,6 +152,7 @@ body{
   padding: 25px;
 }
 .header ul li a.active{
+  border-top: 8px solid rgb(255, 255, 255);
   border-bottom: 8px solid rgb(255, 255, 255);
 }
 body{
