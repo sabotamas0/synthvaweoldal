@@ -449,12 +449,12 @@ aside {
     background-size: cover;
     }
 } 
-@media screen and (max-width:1100px){
+@media (max-width: 480px) { 
   .modal.active{
     width:50%;
   }
   .modal .body {
-    font-size:50px;
+    font-size:10px;
     width: 300px;
     height: 300px;
   }
