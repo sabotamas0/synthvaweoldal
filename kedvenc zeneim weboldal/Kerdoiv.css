@@ -33,7 +33,7 @@
     text-transform: uppercase;
     color: #fff;
     font-size: 20px;
-    font-family: 'outrun_futureregular';
+    font-family: 'outrun_futureregular',sans-serif;
     letter-spacing: 2px;
     font-weight: 600;
     padding: 25px;
@@ -44,11 +44,14 @@
     text-transform: uppercase;
     color: rgb(194, 0, 0);
     font-size: 20px;
-    font-family: 'outrun_futureregular';
+    font-family: 'outrun_futureregular',sans-serif;
     letter-spacing: 2px;
     font-weight: 600;
     padding: 25px;
 }
+.header ul li a.active{
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
 :root {
 --color-white: #f3f3f3;
 --color-darkblue: #1b1b32;
@@ -68,7 +71,7 @@
     padding: 0;
     box-sizing: border-box;
     text-transform: capitalize;
-    font-family: 'road_rageregular';
+    font-family: 'road_rageregular',sans-serif;
 }
 .paragraph
 {
@@ -82,7 +85,7 @@
 }
 body{
     background-image: url("asss.jpg") ;
-    font-family: 'road_rageregular';
+    font-family: 'road_rageregular',sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -166,7 +169,7 @@ border: none;
 color: var(--color-white);
 padding: 0.75rem;
 font-size: var(--size-label);
-font-family:'road_rageregular';
+font-family:'road_rageregular',sans-serif;
 cursor: pointer;
 }
 .back-to-top {

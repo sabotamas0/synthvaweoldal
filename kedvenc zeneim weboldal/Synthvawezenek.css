@@ -43,7 +43,7 @@
   text-transform: uppercase;
   color: #fff;
   font-size: 20px;
-  font-family: 'outrun_futureregular';
+  font-family: 'outrun_futureregular',sans-serif;
   letter-spacing: 2px;
   font-weight: 600;
   padding: 25px;
@@ -54,16 +54,19 @@
   text-transform: uppercase;
   color: rgb(194, 0, 0);
   font-size: 20px;
-  font-family: 'outrun_futureregular';
+  font-family: 'outrun_futureregular',sans-serif;
   letter-spacing: 2px;
   font-weight: 600;
   padding: 25px;
+}
+.header ul li a.active{
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 .content .info h1{
   color: rgb(194, 0, 0);
   font-size: 55px;
   text-transform: uppercase;
-  font-family: 'road_rageregular';
+  font-family: 'road_rageregular',sans-serif;
   font-weight: 500;
   letter-spacing: 6px;
   line-height: 60px;
@@ -80,7 +83,7 @@
 }
 body{
   background-image: url("asss.jpg") ;
-	font-family:'outrun_futureregular';
+	font-family:'outrun_futureregular',sans-serif;
 	background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -90,7 +93,7 @@ body{
   padding: 0;
   box-sizing: border-box;
   text-transform: capitalize;
-  font-family: 'outrun_futureregular';
+  font-family: 'outrun_futureregular',sans-serif;
 }
 .container{
   position: relative;
@@ -116,14 +119,14 @@ body{
   color: rgb(194, 0, 0);
   font-size: 16px;
   font-weight: 500;
-  font-family: 'road_rageregular';
+  font-family: 'road_rageregular',sans-serif;
   text-align: center;
 }
 .container .video-container figure figcaption {
   color: rgb(194, 0, 0);
   font-size: 16px;
   font-weight: 500;
-  font-family: 'road_rageregular';
+  font-family: 'road_rageregular',sans-serif;
   text-align: center;
   transition: .2s linear;
   opacity: 0;
@@ -224,7 +227,7 @@ a.back-to-top {
   }
   body {
     background-image: url(monb.jpg);
-    font-family:'outrun_futureregular';
+    font-family:'outrun_futureregular',sans-serif;
     background-color: rgba(0, 0, 0, .2);
     background-repeat: no-repeat;
     background-attachment: fixed;
