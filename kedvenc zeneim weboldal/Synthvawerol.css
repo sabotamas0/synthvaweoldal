@@ -131,7 +131,7 @@ body{
 }
 .modal {
   width: 1700px;
-  height: 900px;
+  height: 700px;
   position: fixed;
   top: -50%;
   left: 50%;
@@ -196,7 +196,7 @@ body{
   border-radius: 0%;
 }
 a{
-  font-family: "outrun_futureregular", sans-serif;
+  font-family: 'outrun_futureregular', sans-serif;
 }
 
 a.back-to-top {
@@ -302,7 +302,7 @@ a {
   }
   body {
     background-image: url(sadasdasd.png);
-    font-family: "outrun_futureregular", sans-serif;
+    font-family: 'outrun_futureregular', sans-serif;
     background-color: rgba(0, 0, 0, .2);
     background-attachment: local;
     background-image: 50%;
@@ -360,7 +360,7 @@ ol > li:before {
   color: #fff;
   background: #333;
   font-weight: bold;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'outrun_futureregular', sans-serif;
   text-align: center;
 }
 li ol,
@@ -433,7 +433,7 @@ aside {
   }
   body {
     background-image: url(monb.jpg);
-    font-family: "outrun_futureregular", sans-serif;
+    font-family: 'outrun_futureregular', sans-serif;
     background-color: rgba(0, 0, 0, .2);
     background-repeat: no-repeat;
     background-attachment: fixed;
