@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Road Rage';
+  src: url(RoadRage-owgBd.otf);
+}
 .header{
   width: 100%;
   background-color: rgba(0, 0, 0, .2);

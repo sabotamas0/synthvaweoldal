@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: 'RoadRage-owgBd.otf';
+  src: url(RoadRage-owgBd.otf);
+}
 .paragraph
 {
   background-image: url("static.jpg");
