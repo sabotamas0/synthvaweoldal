@@ -1,6 +1,10 @@
 @font-face {
-  font-family: 'RoadRage-owgBd.otf';
-  src: url(RoadRage-owgBd.otf);
+  font-family: 'outrun_futureregular';
+  src: url('outrun_future-webfont.woff2') format('woff2'),
+       url('outrun_future-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 .paragraph
 {
@@ -30,7 +34,7 @@
   text-transform: uppercase;
   color: #fff;
   font-size: 20px;
-  font-family: 'outrun future',sans-serif;
+  font-family: 'outrun_futureregular';
   letter-spacing: 2px;
   font-weight: 600;
   padding: 25px;
@@ -41,7 +45,7 @@
   text-transform: uppercase;
   color: rgb(194, 0, 0);
   font-size: 20px;
-  font-family: 'outrun future',sans-serif;
+  font-family: 'outrun_futureregular';
   letter-spacing: 2px;
   font-weight: 600;
   padding: 25px;
@@ -67,7 +71,7 @@
 }
 body{
   background-image: url("asss.jpg") ;
-	font-family: "outrun future", sans-serif;
+	font-family:'outrun_futureregular';
 	background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -77,7 +81,7 @@ body{
   padding: 0;
   box-sizing: border-box;
   text-transform: capitalize;
-  font-family: 'outrun future',sans-serif;
+  font-family: 'outrun_futureregular';
 }
 .container{
   position: relative;
@@ -213,7 +217,7 @@ a {
   }
   body {
     background-image: url(monb.jpg);
-    font-family: "outrun future", sans-serif;
+    font-family:'outrun_futureregular';
     background-color: rgba(0, 0, 0, .2);
     background-repeat: no-repeat;
     background-attachment: fixed;
