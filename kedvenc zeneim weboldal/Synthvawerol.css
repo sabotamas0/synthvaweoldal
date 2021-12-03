@@ -327,9 +327,7 @@ a.back-to-top {
   opacity: 1;
 }
 
-a {
-  text-decoration:none;
-}
+
 .container2{
   position: relative;
   min-height: 50vh;

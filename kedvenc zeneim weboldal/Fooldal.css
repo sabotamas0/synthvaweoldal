@@ -226,9 +226,7 @@ a.back-to-top {
 .back-to-top.show {
   opacity: 1;
 }
-a {
-  text-decoration:none;
-}
+
 @media (max-width:768px){
   .container .popup-video video{
     width: 95%;

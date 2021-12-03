@@ -199,9 +199,7 @@ cursor: pointer;
   .back-to-top.show {
     opacity: 1;
   }
-  a {
-    text-decoration:none;
-  }
+ 
 @media all and (max-width: 1141px) {
 form {
     width: 80%;
