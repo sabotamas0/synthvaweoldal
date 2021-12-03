@@ -117,6 +117,108 @@ body{
 	font-weight: 200;
   opacity: 1;
 }
+.header{
+  width: 100%;
+  background-color: rgba(0, 0, 0, .2);
+  position: relative; 
+}
+.header ul{
+  text-align: center;
+}
+.header ul li{
+  list-style: none;
+  display: inline-block;
+}
+.header ul li a{
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'outrun_futureregular';
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding: 25px;
+}
+.header ul li a:hover{
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(194, 0, 0);
+  font-size: 20px;
+  font-family: 'outrun_futureregular';
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding: 25px;
+}
+body{
+  background-image: url("asss.jpg") ;
+
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  
+}
+.container{
+  position: relative;
+  min-height: 50vh;
+  background: rgba(0, 0, 0, .7);
+}
+.container .video-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 10px;
+}
+.container .video-container .video{
+  height: 400px;
+  width: 400px;
+  border-radius: 5px ;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+  cursor: pointer;
+  overflow: hidden;
+}
+.container .video-container figure figcaption {
+  color: rgb(194, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'road_rageregular';
+  text-align: center;
+}
+.container .video-container figure figcaption {
+  color: rgb(194, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'road_rageregular';
+  text-align: center;
+  transition: .2s linear;
+  opacity: 0;
+}
+.container .video-container .video video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: .2s linear;
+  opacity: 0.6;
+}
+.paragraph
+{
+  background-image: url("static.jpg");
+  text-align: center;
+  font-family: 'outrun_futureregular';
+	font-size: 35px;
+  color: rgb(194, 0, 0);
+	text-transform: uppercase;
+	font-weight: 200;
+  opacity: 1;
+}
 .container .video-container figure:hover figcaption{
   opacity: 1;
   transform: scale(1.1);
@@ -140,7 +242,7 @@ body{
 }
 .modal {
   width: 1700px;
-  height: 800px;
+  height: 700px;
   position: fixed;
   top: -50%;
   left: 50%;
@@ -151,7 +253,7 @@ body{
   z-index: 2;
   color: rgb(194, 0, 0);
   font-size:15px;
-  font-family: 'road_rageregular';
+  font-family: 'Road Rage',sans-serif;
   background-image: url(grid.jpg) ;
   background-color: rgba(0, 0, 0, .8);
   background-repeat: no-repeat;
