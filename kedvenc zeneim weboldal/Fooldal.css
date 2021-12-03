@@ -6,6 +6,15 @@
   font-style: normal;
 
 }
+
+@font-face {
+  font-family: 'road_rageregular';
+  src: url('road_rage.woff2') format('woff2'),
+       url('road_rage.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 .fooldal
 {
   background-image: url("static.jpg");
@@ -64,7 +73,7 @@
   color: rgb(194, 0, 0);
   font-size: 55px;
   text-transform: uppercase;
-  font-family: "Road Rage", sans-serif;
+  font-family: 'road_rageregular';
   font-weight: 500;
   letter-spacing: 6px;
   line-height: 60px;
@@ -76,7 +85,7 @@
   color: rgb(194, 0, 0);
   font-size: 16px;
   font-weight: 500;
-  font-family: "Road Rage", sans-serif;
+  font-family: 'road_rageregular';
   text-align: center;
   background: rgba(0, 0, 0, .8);
 }
@@ -118,7 +127,7 @@ body{
   color: rgb(194, 0, 0);
   font-size: 16px;
   font-weight: 500;
-  font-family: "Road Rage", sans-serif;
+  font-family: 'road_rageregular';
   text-align: center;
 }
 .container .video-container figure figcaption {

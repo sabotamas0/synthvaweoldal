@@ -6,6 +6,15 @@
   font-style: normal;
 
 }
+
+@font-face {
+  font-family: 'road_rageregular';
+  src: url('road_rage.woff2') format('woff2'),
+       url('road_rage.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 .header{
   width: 100%;
   background-color: rgba(0, 0, 0, .2);
@@ -78,14 +87,14 @@ body{
   color: rgb(194, 0, 0);
   font-size: 16px;
   font-weight: 500;
-  font-family: "Road Rage", sans-serif;
+  font-family: 'road_rageregular';
   text-align: center;
 }
 .container .video-container figure figcaption {
   color: rgb(194, 0, 0);
   font-size: 16px;
   font-weight: 500;
-  font-family: "Road Rage", sans-serif;
+  font-family:'road_rageregular';
   text-align: center;
   transition: .2s linear;
   opacity: 0;
@@ -120,7 +129,7 @@ body{
   color: rgb(194, 0, 0);
   font-size: 16px;
   font-weight: 500;
-  font-family: "Road Rage", sans-serif;
+  font-family: 'road_rageregular';
   text-align: center;
   background-color: rgba(0, 0, 0, .2);
 }
@@ -142,7 +151,7 @@ body{
   z-index: 2;
   color: rgb(194, 0, 0);
   font-size:15px;
-  font-family: 'Road Rage',sans-serif;
+  font-family: 'road_rageregular';
   background-image: url(grid.jpg) ;
   background-color: rgba(0, 0, 0, .8);
   background-repeat: no-repeat;
