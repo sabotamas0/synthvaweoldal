@@ -63,6 +63,7 @@
   border-top: 8px solid rgb(255, 255, 255);
   border-bottom: 8px solid rgb(255, 255, 255);
 }
+
 .content .info h1{
   color: rgb(194, 0, 0);
   font-size: 55px;
@@ -119,6 +120,13 @@ body{
 .container .video-container figure figcaption {
   color: rgb(194, 0, 0);
   font-size: 16px;
+  font-weight: 500;
+  font-family: 'road_rageregular',sans-serif;
+  text-align: center;
+}
+.container .video-container figure #monster{
+  color: rgb(194, 0, 0);
+  font-size: 13px;
   font-weight: 500;
   font-family: 'road_rageregular',sans-serif;
   text-align: center;
